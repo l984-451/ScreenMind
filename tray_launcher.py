@@ -193,12 +193,17 @@ class ScreenMindApp:
         logging.info("heartbeat timer scheduled (5s)")
 
     def _start_backend(self) -> None:
+        import os
+
         log_handle = open(SCREENMIND_LOG, "a", buffering=1)
+        env = os.environ.copy()
+        env["PYTHONUNBUFFERED"] = "1"  # so log lines flush to disk live
         self.proc = subprocess.Popen(
             [str(PYTHON), "main.py"],
             cwd=str(APP_DIR),
             stdout=log_handle,
             stderr=subprocess.STDOUT,
+            env=env,
         )
         logging.info(f"spawned main.py as PID {self.proc.pid}")
 
