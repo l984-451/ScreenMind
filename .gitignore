@@ -47,3 +47,7 @@ Thumbs.db
 
 # Strategy notes (internal)
 strategy_notes/
+
+# macOS build artifacts
+macos/ScreenMind.iconset/
+macos/.build_launcher

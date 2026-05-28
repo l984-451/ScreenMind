@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>ScreenMind</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.bain.screenmind</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>ScreenMind</string>
+    <key>CFBundleDisplayName</key>
+    <string>ScreenMind</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleIconFile</key>
+    <string>ScreenMind</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>ScreenMind captures screenshots of your display to build a private, local AI-searchable memory of your activity.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>ScreenMind records audio for voice memos and meeting transcription.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>ScreenMind reads the active window title to label captured activity.</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>ScreenMind uses Accessibility APIs to identify the active application and window.</string>
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>ScreenMind registers global hotkeys (Ctrl+Shift+B/P/V) for bookmark, pause, and voice memo.</string>
+</dict>
+</plist>
