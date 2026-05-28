@@ -28,7 +28,7 @@ class Embedder:
                 print(f"[Embedder] Loading model: {self._model_name}...")
                 self._model = SentenceTransformer(self._model_name)
                 self._initialized = True
-                print(f"[Embedder] Model loaded. Dimensions: {self._model.get_embedding_dimension()}")
+                print(f"[Embedder] Model loaded. Dimensions: {self._model.get_sentence_embedding_dimension()}")
             except ImportError:
                 print("[Embedder] sentence-transformers not installed. Semantic search disabled.")
                 raise
